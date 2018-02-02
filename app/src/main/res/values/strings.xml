@@ -2,4 +2,7 @@
     <string name="app_name">My Wiki</string>
     <string name="search">Search</string>
     <string name="loading">Loading...</string>
+    <string name="no_visits">No pages visited yet</string>
+    <string name="no_visit_desc">Use Search icon to visit Wiki pages</string>
+    <string name="visited_by_you">Pages visited by you</string>
 </resources>

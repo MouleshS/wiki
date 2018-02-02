@@ -10,6 +10,7 @@ import android.widget.TextView;
 
 import mywiki.mou.mywiki.R;
 import mywiki.mou.mywiki.actvities.WebViewActivity;
+import mywiki.mou.mywiki.database.TPage;
 import mywiki.mou.mywiki.model.Page;
 import mywiki.mou.mywiki.utils.Util;
 
@@ -34,6 +35,7 @@ public class SearchItemHolder extends RecyclerView.ViewHolder {
             @Override
             public void onClick(View v) {
                 if (curPage != null) {
+                    TPage.insert(curPage);
                     WebViewActivity.navigate(ctx, WIKI_PG_URL + String.valueOf(curPage.getId()));
                 }
             }

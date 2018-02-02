@@ -84,7 +84,7 @@ public class SearchActivity extends AppCompatActivity {
 
     private void populateRv(String key) {
         rv.setLayoutManager(new LinearLayoutManager(SearchActivity.this, LinearLayoutManager.VERTICAL, false));
-        SearchListAdapter adapter = new SearchListAdapter(SearchActivity.this, key);
+        SearchListAdapter adapter = new SearchListAdapter(SearchActivity.this, key, SearchListAdapter.ADAPTER_TYPE_API);
         rv.setAdapter(adapter);
     }
 
