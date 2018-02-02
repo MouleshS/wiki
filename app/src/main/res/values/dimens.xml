@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    //margins
+    <dimen name="SEARCH_IMG_WH">50dp</dimen>
+    <dimen name="MEDIUM_MARGIN">10dp</dimen>
+    <dimen name="SMALL_MARGIN">5dp</dimen>
+
+    //textsize
+    <dimen name="TITLE_SIZE">16sp</dimen>
+    <dimen name="DESCRIPTION_SIZE">14sp</dimen>
+
+</resources>
